@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito+Sans:ital,wght@0,200;1,200&display=swap');
+
+
+html
+    {
+    background-image: url(./assets/IMG/img-lightbulb.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    }
+
+#top-menu {float: right;}
+
+body
+    {
+    font-family: 'Nunito Sans', sans-serif;
+    color: chocolate;
+    font-size: 35px;
+    margin-left: 50px
+    }
+
+#picture
+    {
+        border: 5px solid;
+        border-color: chocolate;
+        position: top
+    }
+
+#bio
+    {
+    position: absolute;
+    top: 520px;
+    left: 590px;
+    }
+
+#skills
+    {
+    position: static;
+    vertical-align: center;
+    margin-left: 510px;
+    }
+
+#projects
+    {
+    margin-left: 510px
+    }
+
+    /* need to put project images and descriptions in rows and columns */
+#project-layout 
+    { 
+        max-width: 1250px;
+        margin: 0 left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    p {margin: 0}
+
+
+div{
+        text-align: center;
+        width: 1150px;
+    }
+    /* This div moves bio, skills, and projects alignment */
